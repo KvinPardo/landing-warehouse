@@ -14,7 +14,7 @@ const About = () => {
         <div className="bg-accent-secondary/[15%] rounded-[50px] min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left xl:gap-x-[60px] xl:pb-0">
           {/* image */}
           <div className="flex-1" data-aos="zoom-in-left">
-            <img src={`/img/${image}.png`} alt="" />
+            <img src={`/img/${image}.png`} alt={`/img/${title}`} />
           </div>
           {/* text */}
           <div className="flex-1 xl:pr-12">
