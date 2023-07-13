@@ -1,3 +1,6 @@
+import { FaYoutube, FaInstagram, FaGithub } from "react-icons/fa";
+import { BsChatDotsFill } from "react-icons/bs";
+
 export const navigationData = [
   {
     name: "About",
@@ -74,4 +77,105 @@ export const featuresData = {
       delay: "1300",
     },
   ],
+};
+
+export const testimonialsData = [
+  {
+    image: "avatar1",
+    name: "John Fang",
+    web: "wordfaang.com",
+    message:
+      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+    delay: "300",
+  },
+  {
+    image: "avatar2",
+    name: "Jane Doe",
+    web: "janedoee.com",
+    message:
+      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+    delay: "600",
+  },
+  {
+    image: "avatar3",
+    name: "Jim Ferry",
+    web: "jimjimf.com",
+    message:
+      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+    delay: "900",
+  },
+];
+
+export const ctaData = {
+  title: "Try for free!",
+  subtitle: "Get limited 1 week free try our features!",
+  btnText1: "Learn more",
+  btnText2: "Request Demo",
+};
+
+export const footerData = {
+  logo: "logo-v2",
+  address: "Warehouse Society, 234 Bahagia Ave Street PRBW 29281",
+  email: "info@warehouse.project",
+  phone: "1-232-3434 (Main)",
+  list1: [
+    {
+      name: "Profile",
+      href: "#",
+    },
+    {
+      name: "Features",
+      href: "#",
+    },
+    {
+      name: "Careers",
+      href: "#",
+    },
+    {
+      name: "DW News",
+      href: "#",
+    },
+  ],
+  list2: [
+    {
+      name: "Support",
+      href: "#",
+    },
+    {
+      name: "Sign Up",
+      href: "#",
+    },
+    {
+      name: "Guide",
+      href: "#",
+    },
+    {
+      name: "Reports",
+      href: "#",
+    },
+    {
+      name: "Q & A",
+      href: "#",
+    },
+  ],
+  socialList: [
+    {
+      icon: <FaYoutube/>,
+      href: "#",
+    },
+    {
+      icon: <FaInstagram />,
+      href: "#",
+    },
+    {
+      icon: <FaGithub/>,
+      href: "#",
+    },
+  ],
+};
+
+
+export const copyrightData = {
+  text: '© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.',
+  icon: <BsChatDotsFill />,
 };

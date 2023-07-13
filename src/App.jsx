@@ -5,6 +5,8 @@ import About from "./components/About";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Testimonials from "./components/Testimonials";
+import CtaSection from "./components/CtaSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   // aos initialization
@@ -18,7 +20,9 @@ const App = () => {
       <Hero />
       <About />
       <Features />
-      <Testimonials/>
+      <Testimonials />
+      <CtaSection />
+      <Footer />
     </div>
   );
 };
