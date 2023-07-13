@@ -1,8 +1,5 @@
-
 import { heroData } from "../data";
 import Header from "./Header";
-
-
 
 const Hero = () => {
   //  Destructure
@@ -11,7 +8,7 @@ const Hero = () => {
   return (
     <section className="lg:h-[900px] lg:py-12 py-6">
       <Header />
-      <div className="container mx-auto  h-full relative">
+      <div className="container mx-auto h-full relative">
         <div className="flex flex-col xl:flex-row items-center h-full md:py-24">
           {/* text */}
           <div className="text-center xl:text-left xl:absolute">
@@ -38,10 +35,11 @@ const Hero = () => {
             </button>
           </div>
           {/* image */}
-          <div 
+          <div
             data-aos="fade-up"
-            data-aos-delay='700'
-            className="xl:absolute xl:-right-12 xl:bottom-16">
+            data-aos-delay="700"
+            className="xl:absolute xl:-right-12 xl:bottom-16"
+          >
             <img src={`/img/${image}.png`} alt="" />
           </div>
         </div>

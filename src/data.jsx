@@ -160,7 +160,7 @@ export const footerData = {
   ],
   socialList: [
     {
-      icon: <FaYoutube/>,
+      icon: <FaYoutube />,
       href: "#",
     },
     {
@@ -168,14 +168,13 @@ export const footerData = {
       href: "#",
     },
     {
-      icon: <FaGithub/>,
+      icon: <FaGithub />,
       href: "#",
     },
   ],
 };
 
-
 export const copyrightData = {
-  text: '© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.',
+  text: "© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.",
   icon: <BsChatDotsFill />,
 };

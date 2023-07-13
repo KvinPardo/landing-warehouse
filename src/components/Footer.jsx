@@ -6,7 +6,7 @@ const Footer = () => {
   const { logo, address, email, phone, list1, list2, socialList } = footerData;
 
   return (
-    <footer data-aos='fade-up'>
+    <footer data-aos="fade-up">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row text-center xl:text-left gap-y-12">
           {/* info */}
